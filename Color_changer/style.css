@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #212121;
+    font-family: Arial, sans-serif;
+}
+ 
+h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+ 
+#colorbox {
+    height: 50vh;
+    width: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #212121;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+ 
+#colorbox span {
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    border: radius 5%;;
+    cursor: pointer;
+}
+
+#button{
+    height: 45px;
+    width: 100px;
+    margin:25px;
+    border-radius: 5px;
+    background-color: #212121;
+    color: #fff;
+    
+    cursor: pointer;
+    
+} 

@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #8e8b8b;
+    font-family: Arial, sans-serif;
+}
+
+#input{
+    background: #fff;
+}
